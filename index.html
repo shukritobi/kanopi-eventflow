@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Interactive Kanopi Karya event management system preview">
+  <title>Kanopi EventFlow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="admin" class="shell">
+  <aside id="side">
+    <div class="brand"><b>K</b><span><strong>Kanopi EventFlow</strong><small>Organizer workspace</small></span></div>
+    <div class="workspace"><i>KK</i><span><strong>Kanopi Karya</strong><small>Miri, Sarawak</small></span></div>
+    <nav id="nav"></nav>
+    <div class="account"><i>AN</i><span><strong>Anathasha</strong><small>Event Director</small></span></div>
+  </aside>
+  <main>
+    <header>
+      <button id="menu">☰</button>
+      <div class="event"><i></i><span><strong>Kanopi Karya Brick World</strong><small>1-2 August 2026</small></span></div>
+      <div class="actions"><button id="publicBtn" class="btn light">Public page</button><button id="quickBtn" class="btn">+ Quick add</button></div>
+    </header>
+    <section id="view"></section>
+  </main>
+</div>
+
+<div id="public" class="public hidden">
+  <header class="pubnav">
+    <div class="brand dark"><b>K</b><span><strong>Kanopi Karya</strong><small>Events in Miri</small></span></div>
+    <nav><a href="#about">About</a><a href="#vendors">Vendors</a><a href="#competition">Competition</a><a href="#faq">FAQ</a></nav>
+    <div><button id="adminBtn" class="btn light">← Organizer</button><button class="btn orange register">Register now</button></div>
+  </header>
+  <section class="hero">
+    <div><span class="kicker">1-2 AUGUST 2026 · MIRI, SARAWAK</span><h1>Build. Create.<em>Inspire.</em></h1><p>A two-day family event bringing together brick builders, local brands, food vendors and creative activities under one roof.</p><div class="heroactions"><button class="btn orange register">Join competition</button><button class="btn outline vendorApply">Apply as vendor</button></div><div class="meta"><span><b>10 AM-10 PM</b>Both days</span><span><b>Level 3</b>Boulevard Mall</span><span><b>Free entry</b>For visitors</span></div></div>
+    <div class="poster"><small>KANOPI KARYA</small><h2>BRICK<br>WORLD</h2><b>01-02 AUG 2026</b><i class="brick a"></i><i class="brick b"></i><i class="brick c"></i></div>
+  </section>
+  <section id="about" class="pubsection"><div class="pubtitle"><span>WHAT TO EXPECT</span><h2>A weekend made for curious minds</h2></div><div class="features"><article><i>01</i><h3>Brick Masters Championship</h3><p>Timed building challenges with junior, open and family categories.</p></article><article><i>02</i><h3>Local vendor marketplace</h3><p>Discover food, desserts, crafts, toys and homegrown Miri brands.</p></article><article><i>03</i><h3>Hands-on activity zones</h3><p>Photo booth, demos and family-friendly experiences all day.</p></article></div></section>
+  <section id="vendors" class="pubsection tint"><div class="vendorsplit"><div><span class="kicker">FOR LOCAL BUSINESSES</span><h2>Bring your brand into the Brick World crowd</h2><p>Apply online, choose a booth package, upload documents and track approval without chasing forms through chat.</p><ul><li>Digital application and document upload</li><li>Secure payment with instant receipt</li><li>Booth assignment and briefing portal</li></ul><button class="btn orange vendorApply">Start vendor application</button></div><article class="package"><span>MOST POPULAR</span><h3>Standard booth</h3><strong>RM 350<small>/ 2 days</small></strong><p>✓ 6 ft table and 2 chairs</p><p>✓ Vendor passes for 2 people</p><p>✓ Social media spotlight</p><p>✓ Shared power point</p><button class="btn orange vendorApply">Apply for a booth</button></article></div></section>
+  <section id="competition" class="pubsection"><div class="pubtitle"><span>BRICK MASTERS</span><h2>Choose your challenge</h2></div><div class="categories"><article><i>8+</i><h3>Junior Builder</h3><p>Ages 8-12 · 45 minutes</p><strong>RM 20</strong><button class="btn outline register">Register</button></article><article class="featured"><i>13+</i><h3>Open Category</h3><p>Ages 13+ · 60 minutes</p><strong>RM 25</strong><button class="btn orange register">Register</button></article><article><i>2-4</i><h3>Family Team</h3><p>2-4 members · 60 minutes</p><strong>RM 30</strong><button class="btn outline register">Register</button></article></div></section>
+  <section id="faq" class="pubsection tint"><div class="pubtitle"><span>FAQ</span><h2>Things to know before you come</h2></div><div class="faqs"><details open><summary>Is entry free?</summary><p>Yes, general visitor entry is free. Competition categories require registration.</p></details><details><summary>How do vendor applications work?</summary><p>Submit the form, documents and preferred package. Approved vendors receive a payment link and booth assignment.</p></details><details><summary>Where is my ticket?</summary><p>Your QR ticket is sent by WhatsApp and email after payment.</p></details></div></section>
+  <section class="cta"><span>READY FOR BRICK WORLD?</span><h2>Secure your competition slot today.</h2><button class="btn orange register">Register participant</button></section>
+</div>
+
+<div id="shade" class="shade hidden"></div>
+<div id="modal" class="modal hidden"><button id="close">×</button><div id="modalBody"></div></div>
+<div id="toast" class="toast"><b>✓</b><span><strong>Saved</strong><small>Changes recorded.</small></span></div>
+<script src="app.js"></script>
+</body>
+</html>
