@@ -127,12 +127,14 @@ The repository contains a working interactive front-end preview with sample data
 
 ## Suggested outreach message
 
-Hi Anathasha, I saw your post about developing an event-management app. I prepared a working concept tailored to an organizer workflow like Kanopi Karya's, using Brick World as the sample event.
+Hi Anathasha, I saw your post about developing an event-management app, so I prepared an interactive concept specifically for Kanopi Karya, using Brick World as the sample event.
 
-The system combines vendor applications, participant registration, payment tracking, booth allocation, team tasks, QR check-in, announcements and reporting in one place. Vendors and participants also get a clean public registration portal instead of everything being scattered across forms, spreadsheets and WhatsApp chats.
+The system brings vendor applications, participant registration, payments, booth allocation, team tasks, QR check-in, announcements and reports into one platform. Vendors and participants would also get a proper registration portal instead of everything being managed separately through forms, spreadsheets and WhatsApp chats.
 
-Here is the interactive preview:
+You can explore the working preview here:
 
-https://raw.githack.com/shukritobi/take_me_somewhere/master/index.html
+https://shukritobi.github.io/kanopi-eventflow/
 
-This is currently a front-end concept. The production version can then be connected to secure login, a database, FPX or DuitNow payments and WhatsApp notifications. Would you be open to a quick 10-minute call so I can understand your actual event workflow and show how the system could be adjusted for you?
+This is currently an interactive prototype using sample data. The final system can be customized around your actual workflow and connected to secure login, a database, FPX or DuitNow payments and WhatsApp notifications.
+
+Would you be available for a quick 10-minute call so I can understand how you currently manage your events and discuss how the system can be developed for Kanopi Karya?
